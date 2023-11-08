@@ -462,6 +462,7 @@ describe('HTTP server', () => {
       expect(responseJson.message).toEqual('refresh token tidak ditemukan di database');
     });
 
+    // tambahan CI
     describe('when GET /', () => {
       it('should return 200 and hello world', async () => {
         // Arrange
